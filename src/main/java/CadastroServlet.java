@@ -29,7 +29,7 @@ public class CadastroServlet extends HttpServlet {
         }
         if(req == true) {
             out.println("Cadastrado com sucesso");
-            response.sendRedirect("/Todo_war/Home.jsp"); //  Loja_war
+            response.sendRedirect("/Home.jsp"); //
         } else {
             out.println("Erro ao cadastrar");
         }
