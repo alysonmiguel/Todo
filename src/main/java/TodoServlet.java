@@ -17,8 +17,6 @@ import java.util.ArrayList;
 public class TodoServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter out = response.getWriter();
-
         int id = Integer.parseInt(request.getParameter("id"));
 
         try {
